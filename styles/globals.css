@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@400;500;600;700&family=Noto+Sans:wght@300;400;500&display=swap');
+/* Slider css styles start */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+@import url('./slider.css');
+@import url('./sliderProducts.css');
+@import url('./sliderCardProd.css');
+@import url('./firstSlider.css');
+@import url('./newSaleSlider.css');
+@import url('./sliderInstruments.css');
+/* Slider css styles end */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important;
+  user-select: none !important;
+}
+
+.activeAnchor {
+  background-color: #337202 !important;
+}
+
+.container-base {
+  @apply max-w-screen-2xl mx-auto overflow-y-hidden overflow-x-hidden;
+}
+
+.slick-dots li {
+  width: auto;
+  height: auto;
+  margin: 0 !important;
+}
+
+li.slick-active div {
+  background-color: black !important;
+}
+
+.cartinka span:first-child {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.card_text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  height: 4.5em;
+}
+
+.news_text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.sale:hover .procent {
+  color: rgba(231, 235, 234, 0.2);
+}
+
+.sale:hover .title_sale {
+  color: white;
+}
+
+.sale:hover .sale_btn path {
+  fill: white;
+}
+
+.number_shopB {
+  box-shadow: 0px 2px 4px rgba(51, 114, 2, 0.3);
+}
+
+.card_hov:hover .content_card {
+  opacity: 0.7;
+}
+
+.buyerScr::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.plus {
+  backdrop-filter: blur(2px);
+}
+
+.windowInfo {
+  background: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0px 0px 20px rgba(132, 132, 132, 0.2) !important;
+}
+
+.animLine {
+  width: 56px !important;
+  transition: width 0.5s ease 0s !important;
+}
+
+.newsCardHover:hover .animLine {
+  width: 0px !important;
+  transition: width 0.5s ease 0s !important;
+}
+
+.navLogo {
+  left: calc(50% - 35px) !important;
+}
+
+.windowNavBar {
+  box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.1);
+}
+
+.outModal {
+  backdrop-filter: blur(5px) !important;
+}
+
+.inputForm {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}
+
+.switchConsult {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) !important;
+}
+
+.verifInputs {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  width: 90px;
+  height: 44px;
+  border: 1px solid #337202;
+  border-radius: 6px;
+  background-color: white;
+  text-align: center;
+}

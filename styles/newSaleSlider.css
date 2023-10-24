@@ -1,0 +1,5 @@
+.newSaleSlider .swiper-scrollbar-horizontal {
+  width: 100px !important;
+  margin-left: calc(50% - 50px) !important;
+  margin-bottom: 0px !important;
+}

@@ -1,0 +1,29 @@
+.firstSlider .swiper-scrollbar {
+  width: 100px !important;
+  left: calc(50% - 50px) !important;
+  bottom: 52.5px !important;
+}
+
+.conBtnsFirstSlider {
+  left: calc(50% - 110px) !important;
+  bottom: 32px !important;
+}
+
+@media (max-width: 1000px) {
+  .firstSlider .swiper-scrollbar {
+    bottom: 46px !important;
+  }
+
+  .conBtnsFirstSlider {
+    left: calc(50% - 90px) !important;
+    bottom: 32px !important;
+  }
+
+  .mmm {
+    left: calc(51% - 168px);
+  }
+
+  .conPlusesM {
+    left: calc(50% - 168px);
+  }
+}
